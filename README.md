@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#" rel="noopener" target="_blank"><img width="150" src="https://raw.githubusercontent.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/master/images/VueTS_icon_large.png" alt="Vue.js + Typescript SFC Snippets logo"></a></p>
+  <a href="#" rel="noopener" target="_blank"><img width="150" src="https://raw.githubusercontent.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/master/images/logo.png" alt="Vue.js + Typescript SFC Snippets logo"></a></p>
 </p>
 
 <h1 align="center">Vue.js + TypeScript SFC Snippets for VS Code</h1>
@@ -88,7 +88,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 ## Release Notes
 
-### 1.0.0
+### 0.1.0
 
 Initial release.
 
