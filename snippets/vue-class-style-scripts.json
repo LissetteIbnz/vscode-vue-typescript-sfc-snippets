@@ -1,0 +1,41 @@
+{
+  "vue-class-component import": {
+    "prefix": "vcc-imp",
+    "body": [
+      "import Component from \"vue-class-component\";"
+    ],
+    "description": "Import Component with vue-class-property"
+  }, 
+  "vue-property-decorator import": {
+    "prefix": "vpd-imp",
+    "body": [
+      "import { Component, Vue } from \"vue-property-decorator\";"
+    ],
+    "description": "Import Vue and Component with vue-property-decorator"
+  },
+  "Class-style initial Data": {
+    "prefix": "vcs-data",
+    "body": [
+      "${1:name}: ${2:type} = ${3:value};"
+    ],
+    "description": "Class-style API initial data"
+  },
+  "Class-style annotate refs type": {
+    "prefix": "vcs-refs",
+    "body": [
+      "\\$refs!: {",
+      "\t${1:nameComponent}: ${2:Component},",
+      "};"
+    ],
+    "description": "Class-style API annotate refs type"
+  },
+  "Class-style computed": {
+    "prefix": "vcs-computed",
+    "body": [
+      "get ${1:nameComputed} () {",
+      "\treturn ${2:value};",
+      "};"
+    ],
+    "description": "Class-style API computed"
+  }
+}

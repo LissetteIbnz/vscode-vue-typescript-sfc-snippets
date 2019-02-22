@@ -1,0 +1,43 @@
+{
+  "Vue v-for Directive": {
+    "prefix": "vfor",
+    "body": [
+      "<${1:div} v-for=\"${2:item} in ${2:item}s\" :key=\"${2:item}.id\">",
+      "\t{{ ${2:item} }}",
+      "</${1:div}>"
+    ],
+    "description": "v-for statement"
+  },
+  "Vue v-model Directive": {
+    "prefix": "vmodel",
+    "body": ["<input v-model=\"${1:data}\" type=\"text\" />"],
+    "description": "v-model directive"
+  },
+  "Vue v-model Number Directive": {
+    "prefix": "vmodel-num",
+    "body": [
+      "<input v-model.number=\"${1:numData}\" type=\"number\" step=\"1\" />"
+    ],
+    "description": "v-model directive number input"
+  },
+  "Vue v-on Shortcut Directive": {
+    "prefix": "von",
+    "body": ["@${1:eventListener}=\"${2:handler}\""],
+    "description": "v-on custom handler"
+  },
+  "Vue v-on Shortcut Directive with arg ": {
+    "prefix": "von-arg",
+    "body": ["@${1:eventListener}=\"${2:handler}(${3:arg}, \\$event)\""],
+    "description": "v-on custom handler with arguments"
+  },
+  "Vue v-on:click Shortcut Directive with arg": {
+    "prefix": "von-click",
+    "body": ["@click=\"${1:handler}(${2:arg}, \\$event)\""],
+    "description": "v-on click handler with arguments"
+  },
+  "Vue v-on:submit Shortcut Directive": {
+    "prefix": "von-submit",
+    "body": ["@submit.prevent=\"${1:handler}\""],
+    "description": "v-on submit handler with prevent"
+  }
+}

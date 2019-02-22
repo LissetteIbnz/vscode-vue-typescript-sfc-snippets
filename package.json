@@ -1,0 +1,63 @@
+{
+  "name": "vscode-vue-typescript-sfc-snippets",
+  "displayName": "Vue.js with TypeScript Snippets for VSCode",
+  "description": "Collection of snippets for Vue.js with TypeScript using SFC or class based API (vscode)",
+  "version": "0.1.0",
+  "publisher": "LissetteIbnz",
+  "author": {
+		"name": "Sara Lissette"
+	},
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets.git"
+  },
+  "icon": "images/VueTS_icon_large.png",
+  "galleryBanner": {
+    "color": "#CACF85",
+    "theme": "dark"
+	},
+  "keywords": [
+    "Vue.js",
+    "Vue",
+    "Vue 2",
+    "Vue Snippets",
+    "TypeScript",
+    "SFC"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue-base.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-scripts.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-class-style-scripts.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vue-html.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-html.json"
+      }
+    ]
+  },
+  "homepage": "https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/blob/master/README.md",
+  "license": "SEE LICENSE IN LICENSE.txt"
+}

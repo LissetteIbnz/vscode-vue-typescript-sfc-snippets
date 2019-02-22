@@ -1,0 +1,137 @@
+{
+  "Vue import": {
+    "prefix": "v-imp",
+    "body": [
+      "import Vue from \"vue\";"
+    ],
+    "description": "Import Vue"
+  },
+  "VueConstructor import": {
+    "prefix": "vc-imp",
+    "body": [
+      "import Vue, { VueConstructor } from \"vue\";"
+    ],
+    "description": "Import Vue and VueConstructor"
+  },
+  "Vue as VueConstructor definition": {
+    "prefix": "vc-header",
+    "body": [
+      "export default (Vue as VueConstructor<Vue>).extend({"
+    ],
+    "description": "Definition export default component as VueConstructor"
+  },
+  "Vue as VueConstructor + Other interface": {
+    "prefix": "vco-header",
+    "body": [
+      "export default (Vue as VueConstructor<Vue & ${1:Refs}>).extend({"
+    ],
+    "description": "Definition export default component as VueConstructor + interface"
+  },
+  "Vue Typed Data": {
+    "prefix": "vdata",
+    "body": [
+      "data() {",
+      "\treturn {",
+      "\t\t${1:key}: ${2:value} as ${3:type},",
+      "\t};",
+      "},"
+    ],
+    "description": "Component typed data as a function"
+  },
+  "Vue Props": {
+    "prefix": "vprops",
+    "body": [
+      "props: {",
+      "\t${1:propName}: ${2:type},",
+      "},"
+    ],
+    "description": "Vue Props"
+  },
+  "Vue Props require": {
+    "prefix": "vprops-req",
+    "body": [
+      "props: {",
+      "\t${1:propName}: {",
+      "\t\ttype: ${2:Number},",
+      "\t\trequired: true,",
+      "\t},",
+      "},"
+    ],
+    "description": "Vue Props required"
+  },
+  "Vue extend interface": {
+    "prefix": "vinterface",
+    "body": [
+      "interface ${1:nameInterface} {",
+      "\t${2:key}: ${3:value},",
+      "},"
+    ],
+    "description": "Interface for extend Vue"
+  },
+  "Vue Methods": {
+    "prefix": "vmethod",
+    "body": [
+      "methods: {",
+      "\t${1:name}(${2:arg}): ${2:typedReturn} {",
+      "\t\t${0}",
+      "\t},",
+      "},"
+    ],
+    "description": "Vue Method"
+  },
+  "Vue Computed": {
+    "prefix": "vcomputed",
+    "body": [
+      "computed: {",
+      "\t${1:name}(): ${2:type} {",
+      "\t\treturn this.${3:data};",
+      "\t},",
+      "},"
+    ],
+    "description": "Vue Computed value (must always be typed)"
+  },
+  "Vue Watchers": {
+    "prefix": "vwatcher",
+    "body": [
+      "watch: {",
+      "\t${1:data}(${2:newValue}, ${3:oldValue}) {",
+      "\t\t${0}",
+      "\t},",
+      "},"
+    ],
+    "description": "Vue watcher"
+  },
+  "Vue as VueConstructor with Refs": {
+    "prefix": "vrefs",
+    "body": [
+      "interface ${1:Refs} {",
+      "\t\\$refs: {",
+      "\t\t${2:name}: HTMLInputElement",
+      "\t}",
+      "}",
+      "",
+      "export default (Vue as VueConstructor<Vue & ${1:Refs}>).extend({"
+    ],
+    "description": "Declaration Refs by VueConstructor"
+  },
+  "Vue Filter": {
+    "prefix": "vfilter",
+    "body": [
+      "filters: {",
+      "\t${1:fnName}(${2:value}) {",
+      "\t\treturn ${2:value}${0};",
+      "\t}",
+      "}"
+    ],
+    "description": "Vue filter"
+  },
+  "Vue Render": {
+    "prefix": "vrender",
+    "body": [
+      "render (createElement): VNode {",
+      "\treturn createElement(\"${1:tag}\", this.${2:computed})",
+      "},"
+    ],
+    "description": "Vue render (needs return type)"
+  }  
+}

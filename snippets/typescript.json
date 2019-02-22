@@ -1,0 +1,41 @@
+{
+  "Augmenting Types": {
+    "prefix": "v-augmenting",
+    "body": [
+      "import Vue from \"vue\"",
+      "",      
+      "declare module \"vue/types/vue\" {",
+      "\tinterface Vue {",
+      "\t\t\\$_${1:myProperty}: ${2:type}",
+      "\t}",
+      "}"
+    ],
+    "description": "Augmenting Types to declare an instance property"
+  },
+  "Augmenting Types to Global properties": {
+    "prefix": "v-augmenting-global",
+    "body": [
+      "import Vue from \"vue\"",
+      "",      
+      "declare module \"vue/types/vue\" {",
+      "\tinterface VueConstructor {",
+      "\t\t\\$_${1:myGlobal}: ${2:type}",
+      "\t}",
+      "}"
+    ],
+    "description": "Declare additional global properties"
+  },
+  "Augmenting Types to components options": {
+    "prefix": "v-augmenting-comp",
+    "body": [
+      "import Vue from \"vue\"",
+      "",      
+      "declare module \"vue/types/options\" {",
+      "\tinterface ComponentOptions<V extends Vue> {",
+      "\t\t${1:myOption}?: ${2:type}",
+      "\t}",
+      "}"
+    ],
+    "description": "Declare additional components options"
+  }
+}

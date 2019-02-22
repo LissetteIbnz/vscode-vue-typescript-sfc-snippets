@@ -1,0 +1,5 @@
+node_modules
+tmp
+.editorconfig
+.vscodeignore
+*.vsix
