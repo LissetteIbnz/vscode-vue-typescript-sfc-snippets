@@ -129,5 +129,29 @@
       "</style>"
     ],
     "description": "Base class-style API extending Props for Vue.js File with TypeScript"
+  },
+  "Vue Composition API using Vue 2": {
+    "prefix": "vcompbase",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "\timport Vue from \"vue\";",
+      "\timport { defineComponent, ref } from \"@vue/composition-api\";",
+      "",
+      "\texport default defineComponent({",
+      "\t\t${0}",
+      "\t});",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue.js File with TypeScript using the Composition API plugin for Vue 2"
   }
 }
