@@ -1,6 +1,14 @@
 # Change Log
 
-## [v0.1.0] (2019-02-22)
-- Initial release
+All notable changes to this project will be documented in this file.
 
-[v0.1.0]: https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/compare/master@%7B1day%7D...master
+## [0.2.0] / 2019-03-14
+### Added
+- Vue Composition API initial support added ([@manuelojeda](https://github.com/manuelojeda) in [#1](https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/pull/1))
+
+## [0.1.0] / 2019-02-22
+### Added
+- Initial release 🎉
+
+[0.2.0]: https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/compare/v0.1.0...master
+[0.1.0]: https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/releases/tag/v0.1.0
