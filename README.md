@@ -2,9 +2,21 @@
   <a href="#" rel="noopener" target="_blank"><img width="150" src="https://raw.githubusercontent.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/master/images/logo.png" alt="Vue.js + Typescript SFC Snippets logo"></a></p>
 </p>
 
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=LissetteIbnz.vscode-vue-typescript-sfc-snippets">
+    <img src="https://vsmarketplacebadge.apphb.com/version-short/LissetteIbnz.vscode-vue-typescript-sfc-snippets.svg">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=LissetteIbnz.vscode-vue-typescript-sfc-snippets">
+    <img src="https://vsmarketplacebadge.apphb.com/installs-short/LissetteIbnz.vscode-vue-typescript-sfc-snippets.svg">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=LissetteIbnz.vscode-vue-typescript-sfc-snippets">
+    <img src="https://vsmarketplacebadge.apphb.com/rating-short/LissetteIbnz.vscode-vue-typescript-sfc-snippets.svg">
+  </a>
+</p>
+
 <h1 align="center">Vue.js + TypeScript SFC Snippets for VS Code</h1>
 
-This extension for VS Code adds snippets to use Vue with TypeScript as standard API and based on class-style, as well HTML.
+This extension for VS Code adds snippets to use Vue with TypeScript as Composition API, standard API and based on class-style, as well HTML.
 
 ![SnippetDemo](https://raw.githubusercontent.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/master/images/vcibase.gif)
 
@@ -13,6 +25,12 @@ This extension for VS Code adds snippets to use Vue with TypeScript as standard 
 Type part of a snippet, press enter, and the snippet unfolds.
 
 ## Snippets
+
+### Base for Vue Composition API using Vue 2
+
+| Snippet | Purpose                    |
+| ------- | -------------------------- |
+| `vcompbase` | Base for Composition API plugin for Vue 2 with TS |
 
 ### Base for Vue Standard API
 
@@ -83,18 +101,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 2. Launch VS Code
 3. From the command palette Ctrl-Shift-P (Windows, Linux) or Cmd-Shift-P (OSX)
 4. Select Install Extension
+5. Type [LissetteIbnz](https://marketplace.visualstudio.com/items?itemName=LissetteIbnz.vscode-vue-typescript-sfc-snippets)
 5. Choose the extension
 6. Reload Visual Studio Code
-
-## Release Notes
-
-### 0.1.0
-
-Initial release.
-
-**Enjoy!**
-
----
 
 ## Thanks
 
@@ -103,3 +112,7 @@ Inspired by [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?ite
 ## Contributing
 
 This is an open source project open to anyone. Contributions are welcome [github](https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets)
+
+## License
+
+Vue.js + TypeScript SFC Snippets for VS Code is released under the [MIT licensed](./LICENSE)

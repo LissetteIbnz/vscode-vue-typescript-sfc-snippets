@@ -2,7 +2,7 @@
   "name": "vscode-vue-typescript-sfc-snippets",
   "displayName": "Vue.js with TypeScript Snippets for VSCode",
   "description": "Collection of snippets for Vue.js with TypeScript using SFC or class based API (vscode)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "LissetteIbnz",
   "author": {
 		"name": "Sara Lissette"
@@ -14,6 +14,10 @@
     "type": "git",
     "url": "https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets.git"
   },
+  "bugs": {
+    "url": "https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets.git/issues",
+    "email": "lissette.ibnz@gmail.com"
+  },
   "icon": "images/VueTS_icon_large.png",
   "galleryBanner": {
     "color": "#CACF85",
@@ -21,6 +25,7 @@
 	},
   "keywords": [
     "Vue.js",
+    "Composition API",
     "Vue",
     "Vue 2",
     "Vue Snippets",
@@ -59,5 +64,5 @@
     ]
   },
   "homepage": "https://github.com/LissetteIbnz/vscode-vue-typescript-sfc-snippets/blob/master/README.md",
-  "license": "SEE LICENSE IN LICENSE.txt"
+  "license": "MIT"
 }
